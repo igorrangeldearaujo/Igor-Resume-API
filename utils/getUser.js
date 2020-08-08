@@ -5,7 +5,7 @@ const getUser = async(username) => {
     const resRepos = await fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
     const originalRepos = await resRepos.json()
 
-    const dontShowRepos = ['Igor202094/projetoportal','Igor202094/Igor202094']
+    const dontShowRepos = ['igorrangeldearaujo/projetoportal','igorrangeldearaujo/facebook-messenger-clone']
 
     const isNotFork = repo => !repo.fork
     const dontShowFilter = repo => dontShowRepos.indexOf(repo.full_name) === -1
