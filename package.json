@@ -16,5 +16,8 @@
     "next": "^9.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7"
   }
 }
